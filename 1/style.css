@@ -1,0 +1,215 @@
+/* PC、スマホ共通スタイル */
+body {
+  font-family: "Noto Sans";
+}
+
+
+
+/*================
+PC用のスタイル 
+=================*/
+/* 横幅設定 */
+body {
+  /* max-width: 1080px; */
+  /* min-width: 960px; */
+  /* margin: 0 auto 0 auto; */
+}
+
+/* ヘッダー */
+/* ナビゲーションのレイアウト */
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+nav > div> a{
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.home{
+  border: 1px solid#000000;
+  padding: 10px 10px;
+  margin-left: 20px;
+}
+
+.menu > a{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.name{
+  font-weight: bold;
+  /* margin-left: 20px; */
+  font-size: 24px;
+}
+
+/* TOPページ 戻るボタン */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 88%;
+}
+#page-top a {
+  background: black;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+  border-radius: %;
+}
+#page-top a:hover {
+  text-decoration: none;
+  background: #999;
+}
+
+h1 {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 34px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+p {
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+div{
+  font-size: 0;
+}
+
+.mianpic{
+  width: 100%;
+}
+ 
+img{
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.circle{
+  border-radius: 150px 150px 150px 150px;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border: 3px solid #999;
+  padding: 3px;
+}
+
+.content{
+  margin: 0 auto;
+  margin-left: 33px; 
+}
+
+
+
+/* #works{ 
+  text-align: center;
+  margin-top: 50px;
+  font-size: 34px;
+ } */
+
+.works{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 20px auto 20px auto;
+  max-width: 960px;
+}
+
+.item{
+  padding-bottom: 60px;
+  width: 25%;
+}
+.item > p{
+  font-size: 18px;
+
+}
+
+.item_center{
+  margin: 0 19px 0 19px;
+}
+
+footer{
+  text-align: center;
+}
+
+
+
+/* スクロースしてフェードイン */
+.js-fade {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(50px);
+  transition: opacity 1s,visibility 1s, transform 1s;
+}
+
+.scroll {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+/* 画像の拡大表示 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.big-img {
+  position: absolute;  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  width: 80%;
+  max-width: 800px;  
+  margin: auto;  
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;  
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+
+/* 横幅が767pxまでの場合 */
+@media (max-width: 767px) {
+  /*スマートフォン用のCSS*/
+ }
+ 

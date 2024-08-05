@@ -1,0 +1,608 @@
+/*================
+ PC用のスタイル
+=================*/
+@media screen and (min-width: 768px) {
+   
+
+ 
+
+ 
+
+/* header */
+
+.headername{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+
+}
+
+
+.headername > h1{
+  text-align: left;
+}
+
+.header_nav{
+  width: 100%;
+  background-color: black;
+
+}
+
+.header_ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.header_ul{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  display: flex;
+  color: white;
+  list-style: none;
+  text-align: left;
+  padding: 0px;
+
+}
+
+.header_ul > li{
+  justify-content: left;
+  text-align: left;
+  margin-right: 20px;
+  color: white;
+}
+
+
+/* TOPページ 戻るボタン */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 88%;
+}
+
+
+
+
+ /* pickup */
+
+
+
+  .pickup{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    margin-top: 44px;
+    gap: 20px 20px;
+  }
+
+  .pickup > article > p {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .pickupimg{
+    width: 374px;
+    height: 210px;
+  }
+
+  .readmore_div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .readmore_div > a{
+    color: dimgrey;
+    font-size: 10px;
+    
+  }
+
+
+
+#container{
+  display: flex;
+  gap: 0px 40px;
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+
+}
+
+
+  /* main */
+  main{
+    width: 65%;
+    gap: 80px 0px;
+  }
+
+
+/* 左側 */
+  .main1 > div > h2{
+    font-size: 24px;
+    font-weight:bold;
+  }
+
+  .main1 >  div > p{
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+
+  .explan{
+    font-size: 16px;
+    max-width: 679px;
+    max-height: 72px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .mainpic{
+    width: 760px;
+    height: 427px;
+  }
+
+
+  .main1 > div{
+    margin-bottom: 80px;
+  }
+
+  .main1 > div > a{
+    color: dimgrey;
+    font-size: 10px;
+    text-align: ;
+  }
+
+
+
+
+/* 右側 */
+
+.sidebar{
+  width: 35%;
+  
+  
+}
+
+.author{
+ text-align: center;
+}
+
+
+.author > img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  
+}
+
+.side-title{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.profile{
+  font-size: 14px;
+  margin-bottom: 60px;
+  width: 345px;
+  height: 105px;
+  margin-left: 43px;
+}
+
+.ranking >h3{
+  text-align: center;
+}
+
+.ranking >img{
+  width: 345px;
+  height: 194px;
+}
+
+.ranking >p{
+  margin-bottom: 30px;
+}
+
+
+.archive {
+  margin-top: 60px;
+}
+
+.archive > h3 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.archive_li{
+
+  border-top: 3px solid #777777;
+  padding: 15px;
+}
+
+.archive > ul {
+  list-style: none;
+}
+
+
+.archive > ul >li{
+
+  border-bottom: 3px solid #777777;;
+  padding: 15px;
+}
+
+.foot{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  justify-content: space-between;
+  margin-top: 140px;
+  gap: 0px 20px;
+}
+
+.foot > div{
+  width: 30%;
+}
+
+.foot > div > h3{
+  margin-bottom: 30px;
+}
+
+.foot1_p{
+  height: 200px;
+}
+
+.foot1_a{
+  display: block;
+}
+
+.foot2 >ul{
+  list-style: none;
+}
+
+.foot2_li{
+  
+  border-top: 3px solid #777777;
+  padding: 15px;
+} 
+
+.foot2 > ul >li{
+  border-bottom: 3px solid #777777;;
+  padding: 15px;
+}
+
+.foot2_li > a{
+  text-decoration: none;
+  color: #777777
+}
+
+.foot2_li2 > a{
+  text-decoration: none;
+  color: #777777
+}
+
+fotter{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  
+}
+
+footer > p{
+  text-align: center;
+}
+
+/* 画像の拡大表示 */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.big-img {
+  position: absolute;  
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;  
+  width: 80%;
+  max-width: 800px;  
+  margin: auto;  
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 20px;  
+  color: white;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* TOPページ 戻るボタン */
+#page-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 88%;
+}
+#page-top a {
+  background: black;
+  text-decoration: none;
+  color: #fff;
+  width: 100px;
+  padding: 30px 0;
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+}
+#page-top a:hover {
+  text-decoration: none;
+  background: #999;
+}
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+  body {
+    min-width: 375px;
+    margin: 0;
+}
+
+  .headername{
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+  }
+
+  .headername > h1{
+    text-align: left;
+  }
+  
+  .header_nav{
+    width: 375px;
+    background-color: black;
+  
+  }
+
+  .header_ul{
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    display: flex;
+    color: white;
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+  
+  }
+  
+  .header_ul > li{
+    justify-content: left;
+    text-align: left;
+    margin-right: 20px;
+    
+  }
+
+  /* pickup */
+
+
+
+  .pickup{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375pxpx;
+    margin-top: 44px;
+    gap: 20px 20px;
+  }
+
+  .pickup > article > p {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .pickupimg{
+    width: 343px;
+    height: 210px;
+  }
+
+  .readmore_div{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .readmore_div > a{
+    color: dimgrey;
+    font-size: 10px;
+    
+  }
+
+
+
+#container{
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+}
+
+.main1 >  div > p{
+  font-size: 14px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+
+.explan{
+  font-size: 16px;
+  max-width: 375px;
+  max-height: 72px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mainpic{
+  width: 343px;
+  height: 193px;
+}
+
+
+.main1 > div{
+  margin-bottom: 80px;
+}
+
+.main1 > div > a{
+  color: dimgrey;
+  font-size: 10px;
+  text-align: ;
+}
+
+
+/* 右側 */
+
+
+
+.author{
+ text-align: center;
+}
+
+
+.author > img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  
+}
+
+.side-title{
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.profile{
+  font-size: 14px;
+  margin-bottom: 60px;
+  width: 345px;
+  height: 105px;
+  margin-left: 43px;
+}
+
+.ranking >h3{
+  text-align: center;
+}
+
+.ranking >img{
+  width: 345px;
+  height: 194px;
+}
+
+.ranking >p{
+  margin-bottom: 30px;
+}
+
+
+.archive {
+  margin-top: 60px;
+}
+
+.archive > h3 {
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+.archive_li{
+
+  border-top: 3px solid #777777;
+  padding: 15px;
+}
+
+.archive > ul {
+  list-style: none;
+}
+
+
+.archive > ul >li{
+
+  border-bottom: 3px solid #777777;;
+  padding: 15px;
+}
+
+
+/* foot */
+.foot{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  justify-content: space-between;
+  margin-top: 140px;
+}
+
+
+
+.foot > div > h3{
+  margin-bottom: 30px;
+}
+
+.foot1_p{
+  height: 100px;
+}
+
+.foot1_a{
+  display: block;
+}
+
+.foot2{
+  margin-top: 30px;
+}
+
+.foot2 >ul{
+  list-style: none;
+}
+
+.foot2_li{
+  
+  border-top: 3px solid #777777;
+  padding: 15px;
+} 
+
+.foot2 > ul >li{
+  border-bottom: 3px solid #777777;;
+  padding: 15px;
+}
+
+.foot3{
+  margin-top: 30px;
+}
+
+
+fotter{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  
+}
+
+footer > p{
+  text-align: center;
+}
+
+
+
+
+}
+
